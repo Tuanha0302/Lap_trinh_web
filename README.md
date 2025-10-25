@@ -103,3 +103,4 @@
 <img width="610" height="131" alt="image" src="https://github.com/user-attachments/assets/9cee5a18-fb9d-4094-b8eb-4c5ee8fce622" />
 
 5. khi đó nodered sẽ yêu cầu nhập mật khẩu mới vào được giao diện cho admin tại: http://localhost:1880 
+<img width="1865" height="876" alt="Ảnh chụp màn hình 2025-10-25 142740" src="https://github.com/user-attachments/assets/3ed19b23-d7d4-4d2d-8796-0ad5a8c2a71c" />
