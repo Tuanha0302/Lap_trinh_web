@@ -39,8 +39,8 @@
 - Nếu thấy hiện dòng "hello" là thành công.
 <img width="1919" height="1024" alt="Ảnh chụp màn hình 2025-10-25 122231" src="https://github.com/user-attachments/assets/1d62314c-c0a7-44a3-9b58-fa7d512ca635" />
 
-## Cài đặt Note.js và Note-RED
-### Bước 1: Cài Note.js 
+## Cài đặt Node.js và Node-RED
+### Bước 1: Cài Node.js 
 1. Tải file: https://nodejs.org/dist/v20.19.5/node-v20.19.5-x64.msi
 2. Khi cài, chọn đường dẫn: E:\nodejs
 <img width="620" height="476" alt="Ảnh chụp màn hình 2025-10-25 122845" src="https://github.com/user-attachments/assets/8f5d2911-178c-443c-99c0-310a9e753dab" />
@@ -52,6 +52,15 @@
 ### Bước 3: Cài NSSM (Để chạy Node-RED như service)
 1. Tải file: https://nssm.cc/release/nssm-2.24.zip
 2. Giải nén được file nssm.exe copy file đó vào thư mục `E:\nodejs\nodered\`
+
+### Bước 4: Tạo file chạy Node-RED
+1. Tạo file "E:\nodejs\nodered\run-nodered.cmd" với nội dung:
+- @echo off
+- REM fix path
+- set PATH=E:\nodejs;%PATH%
+- REM Run Node-RED
+- node "E:\nodejs\nodered\node_modules\node-red\red.js" -u "E:\nodejs\nodered\work" %*
+<img width="1433" height="756" alt="image" src="https://github.com/user-attachments/assets/1340c607-9dd5-4ea5-8cb1-892be924be45" />
 
 
 
