@@ -36,8 +36,8 @@
 - E:\Apache\Apache24\bin\httpd.exe -k install
 - E:\Apache\Apache24\bin\httpd.exe -k start
 2. Truy cập: http://nguydinhtuanha.com
-- Nếu thấy hiện dòng "hello" là thành công.
-<img width="1919" height="1024" alt="Ảnh chụp màn hình 2025-10-25 122231" src="https://github.com/user-attachments/assets/1d62314c-c0a7-44a3-9b58-fa7d512ca635" />
+- Nếu thấy hiện dòng như này là thành công.
+<img width="1910" height="967" alt="image" src="https://github.com/user-attachments/assets/1f2b8b76-d355-4efc-b67b-81db5cb86b54" />
 
 ## Cài đặt Node.js và Node-RED
 ### Bước 1: Cài Node.js 
