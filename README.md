@@ -38,3 +38,32 @@
 2. Truy cập: http://tuanha.com
 - Nếu thấy hiện dòng "hello" là thành công.
 <img width="1919" height="1024" alt="Ảnh chụp màn hình 2025-10-25 122231" src="https://github.com/user-attachments/assets/1d62314c-c0a7-44a3-9b58-fa7d512ca635" />
+
+## Cài đặt Note.js và Note-RED
+### Bước 1: Cài Note.js 
+1. Tải file: https://nodejs.org/dist/v20.19.5/node-v20.19.5-x64.msi
+2. Khi cài, chọn đường dẫn: E:\nodejs
+<img width="620" height="476" alt="Ảnh chụp màn hình 2025-10-25 122845" src="https://github.com/user-attachments/assets/8f5d2911-178c-443c-99c0-310a9e753dab" />
+
+### Bước 2: Cài Node-RED  
+1. Mở CMD chạy lệnh 'npm install -g --unsafe-perm node-red --prefix "D:\nodejs\nodered"'
+<img width="1100" height="639" alt="image" src="https://github.com/user-attachments/assets/39be7a92-d858-4d3b-bf63-9c7bb7d2a78b" />
+
+### Bước 3: Cài NSSM (Để chạy Node-RED như service)
+1. Tải file: https://nssm.cc/release/nssm-2.24.zip
+2. Giải nén được file nssm.exe copy file đó vào thư mục `E:\nodejs\nodered\`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
