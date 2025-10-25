@@ -29,3 +29,12 @@
 ### Bước 5: Fake domain trong file hosts
 1. Mở file: C:\Windows\System32\drivers\etc\hosts
 2. Thêm dòng: 127.0.0.1 tuanha.com
+<img width="1258" height="625" alt="image" src="https://github.com/user-attachments/assets/3c9938d2-02e0-41c6-8e8f-ffacf48bf207" />
+
+### Bước 6: Cài đặt và khởi động Apache
+1. Mở CMD (Admin) gõ:
+- E:\Apache\Apache24\bin\httpd.exe -k install
+- E:\Apache\Apache24\bin\httpd.exe -k start
+2. Truy cập: http://tuanha.com
+- Nếu thấy hiện dòng "hello" là thành công.
+<img width="1919" height="1024" alt="Ảnh chụp màn hình 2025-10-25 122231" src="https://github.com/user-attachments/assets/1d62314c-c0a7-44a3-9b58-fa7d512ca635" />
