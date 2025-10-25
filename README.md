@@ -135,3 +135,10 @@
 
 <img width="1917" height="1031" alt="image" src="https://github.com/user-attachments/assets/0741a212-46d6-4b9f-8ed9-f26c70bdae53" />
 
+## Nhận xét bài làm
+- Qua việc thực hiện làm bài về nhà em đã lắm được cách cài đặt Apache, cấu hình VirtualHost và sử dụng file hosts để tạo domain giả lập
+- Em cũng đã hiểu thêm về Node.js và Node-RED là công cụ xây dựng backend bằng mô hình kéo thả trực quan, nhanh chóng đồng thời biết cách tạo và quản lý service bằng nssm
+- Em đã thực hiện được việc kết nối Node-RED với cơ sở dữ liệu MSSQL để truy vấn dữ liệu, và hiểu cách xây dựng API phản hồi JSON cho front-end
+- Em cũng hiểu được cách front-end giao tiếp với back-end qua API và cách hiển thị kết quả truy vấn ra giao diện web
+- Thông qua bài làm lần này em đã hiểu biết thêm nhiều về 
+- 
