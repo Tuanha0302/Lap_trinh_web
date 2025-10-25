@@ -20,22 +20,22 @@
 2. Mở file E:\Apache24\conf\extra\httpd-vhosts.conf này bằng Notepad, thêm đoạn sau vào cuối file (giả sử tên bạn là Tuấn Hà → tuanha.com):
 <img width="1678" height="714" alt="image" src="https://github.com/user-attachments/assets/68024b82-476e-48a3-a46f-42abb4b9dae1" />
 
-<img width="1426" height="701" alt="Ảnh chụp màn hình 2025-10-25 105630" src="https://github.com/user-attachments/assets/b6b6ae8e-d6b0-4dce-b4f6-4e548c804d9e" />
+<img width="1141" height="544" alt="image" src="https://github.com/user-attachments/assets/3a45ad32-6be5-4ad3-8558-bbda3746f221" />
 
 ### Bước 4: Tạo thư mục code web
-- Tạo thư mục: E:\Apache24\tuanha
-<img width="1910" height="1011" alt="Ảnh chụp màn hình 2025-10-25 105738" src="https://github.com/user-attachments/assets/fc048a85-1849-4f3d-b931-56dbe3a8978f" />
+- Tạo thư mục: E:\Apache\Apache24\NguyDinhTuanHa
+<img width="1121" height="582" alt="image" src="https://github.com/user-attachments/assets/ff432a37-c005-495c-8e3e-7a3b6a608c47" />
 
 ### Bước 5: Fake domain trong file hosts
 1. Mở file: C:\Windows\System32\drivers\etc\hosts
-2. Thêm dòng: 127.0.0.1 tuanha.com
-<img width="1258" height="625" alt="image" src="https://github.com/user-attachments/assets/3c9938d2-02e0-41c6-8e8f-ffacf48bf207" />
+2. Thêm dòng: 127.0.0.1 nguydinhtuanha.com
+<img width="1138" height="535" alt="image" src="https://github.com/user-attachments/assets/0a0af35b-d06b-4b94-99cf-39ea76e1caef" />
 
 ### Bước 6: Cài đặt và khởi động Apache
 1. Mở CMD (Admin) gõ:
 - E:\Apache\Apache24\bin\httpd.exe -k install
 - E:\Apache\Apache24\bin\httpd.exe -k start
-2. Truy cập: http://tuanha.com
+2. Truy cập: http://nguydinhtuanha.com
 - Nếu thấy hiện dòng "hello" là thành công.
 <img width="1919" height="1024" alt="Ảnh chụp màn hình 2025-10-25 122231" src="https://github.com/user-attachments/assets/1d62314c-c0a7-44a3-9b58-fa7d512ca635" />
 
