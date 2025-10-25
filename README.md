@@ -109,10 +109,11 @@
 1. Tại flow1 trên nodered, sử dụng node `http in` và `http response` để tạo api
 2. Thêm node `MSSQL` để truy vấn tới cơ sở dữ liệu
 3. logic flow sẽ gồm 5 node theo thứ tự sau (thứ tự nối dây):
-- http in  : dùng GET cho đơn giản, URL đặt tuỳ ý, ví dụ: /timkiem
-- function
+- http in  : dùng GET cho đơn giản, URL đặt tuỳ ý, ví dụ: /Sach
+- function 1: nhận yêu cầu → đọc từ khóa → tạo câu SQL → gửi cho node cơ sở dữ liệu
 - MSSQL: để truy vấn dữ liệu tới CSDL, nhận tham số từ node tiền xử lý
-- function
+- function 2: nhận dữ liệu SQL → xử lý → trả JSON về cho web
 - http response: để phản hồi dữ liệu về client: Status Code=200, Header add : Content-Type = application/json
 -> có thể thêm node `debug` để quan sát giá trị trung gian
-4. Test api thông qua trình duyệt, ví dụ: http://localhost:1880/timkiem
+4. Test api thông qua trình duyệt, ví dụ: http://localhost:1880/Sach
+<img width="1919" height="385" alt="image" src="https://github.com/user-attachments/assets/ad0c930c-9cd2-46a1-bd86-eb92a71f991a" />
