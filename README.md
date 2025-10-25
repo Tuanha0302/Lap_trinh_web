@@ -17,7 +17,7 @@
 -> Tìm dòng #Include conf/extra/httpd-vhosts.conf bỏ dấu # đi để bật VirtualHost
 <img width="1432" height="708" alt="image" src="https://github.com/user-attachments/assets/91c649f2-ce82-4b6c-ac54-7a81e0bfa906" />
 
-2. Mở file E:\Apache24\conf\extra\httpd-vhosts.conf này bằng Notepad, thêm đoạn sau vào cuối file (giả sử tên bạn là Tuấn Hà → tuanha.com):
+2. Mở file E:\Apache24\conf\extra\httpd-vhosts.conf này bằng Notepad, thêm đoạn sau vào cuối file (giả sử tên bạn là Ngụy Đình Tuấn Hà → nguydinhtuanha.com):
 <img width="1678" height="714" alt="image" src="https://github.com/user-attachments/assets/68024b82-476e-48a3-a46f-42abb4b9dae1" />
 
 <img width="1141" height="544" alt="image" src="https://github.com/user-attachments/assets/3a45ad32-6be5-4ad3-8558-bbda3746f221" />
