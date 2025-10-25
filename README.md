@@ -102,3 +102,4 @@
 4. Chạy lại nodered bằng cách: mở cmd, vào thư mục `E:\nodejs\nodered` và chạy lệnh `nssm restart a1-nodered`
 <img width="610" height="131" alt="image" src="https://github.com/user-attachments/assets/9cee5a18-fb9d-4094-b8eb-4c5ee8fce622" />
 
+5. khi đó nodered sẽ yêu cầu nhập mật khẩu mới vào được giao diện cho admin tại: http://localhost:1880 
