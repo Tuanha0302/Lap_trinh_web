@@ -47,7 +47,7 @@
 
 ### Bước 2: Cài Node-RED  
 1. Mở CMD chạy lệnh 'npm install -g --unsafe-perm node-red --prefix "D:\nodejs\nodered"'
-<img width="1100" height="639" alt="image" src="https://github.com/user-attachments/assets/39be7a92-d858-4d3b-bf63-9c7bb7d2a78b" />
+<img width="897" height="209" alt="image" src="https://github.com/user-attachments/assets/8264e263-6b6c-421c-950d-a1c65496d42c" />
 
 ### Bước 3: Cài NSSM (Để chạy Node-RED như service)
 1. Tải file: https://nssm.cc/release/nssm-2.24.zip
@@ -62,9 +62,13 @@
 - node "E:\nodejs\nodered\node_modules\node-red\red.js" -u "E:\nodejs\nodered\work" %*
 <img width="1433" height="756" alt="image" src="https://github.com/user-attachments/assets/1340c607-9dd5-4ea5-8cb1-892be924be45" />
 
+### Bước 5: Cài Node-RED làm service
+1. Mở CMD, chuyển đến thư mục: `E:\nodejs\nodered`
+2. cài đặt service `a1-nodered` bằng lệnh: nssm.exe install a1-nodered "E:\nodejs\nodered\run-nodered.cmd"
+<img width="934" height="101" alt="image" src="https://github.com/user-attachments/assets/72bc40cc-3000-40b4-bc7a-8227e3fd976a" />
 
-
-
+3. Chạy service `a1-nodered` bằng lệnh: `nssm start a1-nodered`
+<img width="592" height="108" alt="image" src="https://github.com/user-attachments/assets/893b331b-6ed8-4ad0-8214-71dbedc47963" />
 
 
 
