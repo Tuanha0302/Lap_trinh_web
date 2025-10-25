@@ -104,3 +104,15 @@
 
 5. khi đó nodered sẽ yêu cầu nhập mật khẩu mới vào được giao diện cho admin tại: http://localhost:1880 
 <img width="1865" height="876" alt="Ảnh chụp màn hình 2025-10-25 142740" src="https://github.com/user-attachments/assets/3ed19b23-d7d4-4d2d-8796-0ad5a8c2a71c" />
+
+## Tạo api back-end bằng nodered
+1. Tại flow1 trên nodered, sử dụng node `http in` và `http response` để tạo api
+2. Thêm node `MSSQL` để truy vấn tới cơ sở dữ liệu
+3. logic flow sẽ gồm 5 node theo thứ tự sau (thứ tự nối dây):
+- http in  : dùng GET cho đơn giản, URL đặt tuỳ ý, ví dụ: /timkiem
+- function
+- MSSQL: để truy vấn dữ liệu tới CSDL, nhận tham số từ node tiền xử lý
+- function
+- http response: để phản hồi dữ liệu về client: Status Code=200, Header add : Content-Type = application/json
+-> có thể thêm node `debug` để quan sát giá trị trung gian
+4. Test api thông qua trình duyệt, ví dụ: http://localhost:1880/timkiem
