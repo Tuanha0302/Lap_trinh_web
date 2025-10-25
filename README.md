@@ -117,3 +117,8 @@
 -> có thể thêm node `debug` để quan sát giá trị trung gian
 4. Test api thông qua trình duyệt, ví dụ: http://localhost:1880/Sach
 <img width="1919" height="385" alt="image" src="https://github.com/user-attachments/assets/ad0c930c-9cd2-46a1-bd86-eb92a71f991a" />
+
+## Tạo giao diện front-end
+1. Html form gồm các file : index.html, nguydinhtuanha.js, nguydinhtuanha.css
+2. Cả 3 file này đặt trong thư mục: `E:\Apache24\nguydinhtuanha
+3. Fullname.js: lấy dữ liệu trên form, gửi đến api nodered đã làm ở bước tạo api back-end bằng nodered, nhận về json, dùng json trả về để tạo giao diện phù hợp với kết quả truy vấn
