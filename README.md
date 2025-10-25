@@ -125,3 +125,13 @@
 1. Html form gồm các file : index.html, nguydinhtuanha.js, nguydinhtuanha.css
 2. Cả 3 file này đặt trong thư mục: `E:\Apache24\nguydinhtuanha
 3. Fullname.js: lấy dữ liệu trên form, gửi đến api nodered đã làm ở bước tạo api back-end bằng nodered, nhận về json, dùng json trả về để tạo giao diện phù hợp với kết quả truy vấn
+<img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/0ed33e27-4735-4c12-a11d-4ace77116238" />
+
+<img width="1917" height="1031" alt="image" src="https://github.com/user-attachments/assets/fce82ea3-ba42-4e22-be9b-4408bd4c5155" />
+
+<img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/4a4ba7d0-eb87-43c8-8a0a-c7077c364df0" />
+
+<img width="1919" height="1035" alt="image" src="https://github.com/user-attachments/assets/9c7a3c4d-f427-43da-bebd-b5bb89d9e2a5" />
+
+<img width="1917" height="1031" alt="image" src="https://github.com/user-attachments/assets/0741a212-46d6-4b9f-8ed9-f26c70bdae53" />
+
