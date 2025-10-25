@@ -70,11 +70,19 @@
 3. Chạy service `a1-nodered` bằng lệnh: `nssm start a1-nodered`
 <img width="592" height="108" alt="image" src="https://github.com/user-attachments/assets/893b331b-6ed8-4ad0-8214-71dbedc47963" />
 
+## Tạo cơ sở dữ liệu 
+1. Tạo các bảng cơ bản: Sách, thể loại, khách hàng, hóa đơn, chi tiết hóa đơn
+<img width="621" height="268" alt="image" src="https://github.com/user-attachments/assets/264458f5-add6-4898-89a9-582b9efc5303" />
 
+<img width="637" height="160" alt="image" src="https://github.com/user-attachments/assets/ba811a1d-7a7a-4599-988d-8f049485442d" />
 
+<img width="686" height="240" alt="image" src="https://github.com/user-attachments/assets/7a574cd1-ff29-4f13-b63a-50aa6e2c80e0" />
 
+<img width="642" height="180" alt="image" src="https://github.com/user-attachments/assets/9236ec73-d447-44f7-8488-3ff81d09f052" />
 
+<img width="628" height="186" alt="image" src="https://github.com/user-attachments/assets/845550d1-da60-47c2-b96e-f362c770f3ce" />
 
+<img width="1186" height="510" alt="image" src="https://github.com/user-attachments/assets/b87fc5d7-a497-4f41-ac14-95e4d7fc1d65" />
 
 
 
