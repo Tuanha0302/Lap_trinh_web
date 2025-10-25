@@ -23,8 +23,8 @@
 <img width="1141" height="544" alt="image" src="https://github.com/user-attachments/assets/3a45ad32-6be5-4ad3-8558-bbda3746f221" />
 
 ### Bước 4: Tạo thư mục code web
-- Tạo thư mục: E:\Apache\Apache24\NguyDinhTuanHa
-<img width="1121" height="582" alt="image" src="https://github.com/user-attachments/assets/ff432a37-c005-495c-8e3e-7a3b6a608c47" />
+- Tạo thư mục: E:\Apache\Apache24\nguydinhtuanha
+<img width="1114" height="584" alt="image" src="https://github.com/user-attachments/assets/b4333bd3-b5f7-4a65-b05d-ea9599caf15c" />
 
 ### Bước 5: Fake domain trong file hosts
 1. Mở file: C:\Windows\System32\drivers\etc\hosts
