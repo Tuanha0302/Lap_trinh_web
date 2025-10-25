@@ -96,7 +96,8 @@
 - node-red-contrib-cron-plus
 3. Sửa file `E:\nodejs\nodered\work\settings.js`:
 <img width="1009" height="290" alt="image" src="https://github.com/user-attachments/assets/0e6ca13a-59c8-4f46-b66c-25a16b285a30" />
-với mã hoá mật khẩu có thể thiết lập bằng tool: https://tms.tnut.edu.vn/pw.php
+
+- với mã hoá mật khẩu có thể thiết lập bằng tool: https://tms.tnut.edu.vn/pw.php
 
 4. Chạy lại nodered bằng cách: mở cmd, vào thư mục `E:\nodejs\nodered` và chạy lệnh `nssm restart a1-nodered`
 <img width="610" height="131" alt="image" src="https://github.com/user-attachments/assets/9cee5a18-fb9d-4094-b8eb-4c5ee8fce622" />
