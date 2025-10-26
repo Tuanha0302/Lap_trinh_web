@@ -163,6 +163,8 @@ http response: để phản hồi dữ liệu về client: Status Code=200, Head
 
 ## Tạo giao diện front-end
 1. Html form gồm các file : index.html, nguydinhtuanha.js, nguydinhtuanha.css
+<img width="963" height="196" alt="image" src="https://github.com/user-attachments/assets/fdf2c04a-e735-4ccf-92a1-8ea0ac83c858" />
+   
 2. Cả 3 file này đặt trong thư mục: `E:\Apache24\nguydinhtuanha
 3. Fullname.js: lấy dữ liệu trên form, gửi đến api nodered đã làm ở bước tạo api back-end bằng nodered, nhận về json, dùng json trả về để tạo giao diện phù hợp với kết quả truy vấn
 <img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/0ed33e27-4735-4c12-a11d-4ace77116238" />
