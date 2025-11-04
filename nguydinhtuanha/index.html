@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Quản lý Bán Sách</title>
+  <link rel="stylesheet" href="nguydinhtuanha.css">
+</head>
+<body>
+  <div class="outer-wrapper">
+    <div class="container">
+      <div class="top-bar">
+        <div class="left-section">
+          <button id="homeBtn">🏠 Trang chủ</button>
+        </div>
+
+        <div class="search-box">
+          <input type="text" id="keyword" placeholder="Nhập tên sách hoặc tác giả...">
+          <button id="searchBtn">🔍 Tìm kiếm</button>
+        </div>
+
+        <div class="right-section">
+          <button id="invoiceBtn">🧾 Hóa đơn (<span id="cart-count">0</span>)</button>
+        </div>
+      </div>
+
+      <div id="book-list" class="book-grid"></div>
+
+      <!-- Modal Hóa Đơn -->
+      <div id="invoiceModal" class="modal hidden">
+        <div class="modal-content">
+          <h2>🧾 Hóa đơn mua hàng</h2>
+          <div id="invoice-items"></div>
+          <p id="invoice-total" class="total-price"></p>
+
+          <h3>Thông tin người mua</h3>
+          <div class="buyer-info">
+            <input type="text" id="buyer-name" placeholder="Họ và tên">
+            <input type="text" id="buyer-phone" placeholder="Số điện thoại">
+            <input type="email" id="buyer-email" placeholder="Email">
+            <input type="text" id="buyer-address" placeholder="Địa chỉ nhận hàng">
+            <input type="text" id="buyer-note" placeholder="Ghi chú (nếu có)">
+          </div>
+
+          <div class="invoice-buttons">
+            <button id="checkoutBtn">💳 Thanh toán</button>
+            <button id="closeInvoice">❌ Đóng</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="nguydinhtuanha.js"></script>
+</body>
+</html>
